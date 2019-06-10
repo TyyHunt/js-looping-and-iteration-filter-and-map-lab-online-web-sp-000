@@ -8,5 +8,5 @@ function driversWithRevenueOver(obj, revenue) {
 function driverNamesWithRevenueOver(obj, revenue) {
   return driversWithRevenueOver(obj, revenue).map(function(driver) {
     return driver.name;
-  })
-}
+  });
+};
