@@ -1,4 +1,4 @@
 // Code your solution here:
 function driversWithRevenueOver(obj, revenue) {
-  return obj.filter(function (num) { return revenue > num; })
+  return obj.filter(function (num) { return obj.revenue > num; })
 }
