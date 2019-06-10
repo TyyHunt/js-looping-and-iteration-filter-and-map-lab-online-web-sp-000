@@ -20,6 +20,8 @@ function exactMatch(obj, attribute) {
   });
 };
 
-function exactMatchToList() {
-
+function exactMatchToList(obj, attribute) {
+  return exactMatch(obj, attribute).map(function(driver) {
+    return driver.name;
+  })
 };
