@@ -19,3 +19,7 @@ function exactMatch(obj, attribute) {
     return result;
   });
 };
+
+function exactMatchToList() {
+  
+};
