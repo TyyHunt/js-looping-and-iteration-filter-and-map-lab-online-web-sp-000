@@ -15,6 +15,5 @@ function exactMatch(obj, attribute) {
   return obj.filter(function(driver) {
     return for (const key in attribute) {
       driver[key] === attribute[key]};
-    }
-  })
+  });
 };
